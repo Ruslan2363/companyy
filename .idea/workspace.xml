@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda531f6-85ef-4157-ad1a-a3fdb7167aa6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/details/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/entities/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/professions/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/vehicles/Lorry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/vehicles/SportCar.java" afterDir="false" />
-    </list>
+    <list default="true" id="eda531f6-85ef-4157-ad1a-a3fdb7167aa6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +39,8 @@
     "last_opened_file_path": "C:/Users/user/IdeaProjects/company",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RunManager">
@@ -92,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
