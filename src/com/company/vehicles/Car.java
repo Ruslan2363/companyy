@@ -1,15 +1,40 @@
 package com.company.vehicles;
-
 import com.company.professions.Driver;
+import com.company.details.Engine;
 
-public class Car extends  Driver {
+
+public class Car extends Engine
+{
  public String маркаАвтомобіля;
  public String класАвтомобіля;
-    public int потужність;
-    public String виробник;
+
  public int вага;
 
- public void start(){
+    public String getКласАвтомобіля() {
+        return класАвтомобіля;
+    }
+    public void setКласАвтомобіля(String класАвтомобіля) {
+        this.класАвтомобіля = класАвтомобіля;
+    }
+
+    public String getМаркаАвтомобіля() {
+        return маркаАвтомобіля;
+    }
+
+    public void setМаркаАвтомобіля(String маркаАвтомобіля) {
+        this.маркаАвтомобіля = маркаАвтомобіля;
+    }
+
+
+    public int getВага() {
+        return вага;
+    }
+
+    public void setВага(int вага) {
+        this.вага = вага;
+    }
+
+    public void start(){
      System.out.println("Поїхали");
  }
  public void stop(){
@@ -21,24 +46,28 @@ public void turnRight(){
 public void turnLeft(){
     System.out.println("ПоворотНаліво");
 }
-public Car(String ПІБ,String статть,int вік,int номерТелефону,int стажВодіння,int потужність,String виробник,String маркаАвтомобіля,String класАвтомобіля,int вага ){
-     super(ПІБ,статть,вік, номерТелефону,стажВодіння,потужність,виробник);
+public Car(int потужність,String виробник,String маркаАвтомобіля,String класАвтомобіля,int вага ){
+     super(потужність,виробник);
      this.маркаАвтомобіля=маркаАвтомобіля;
      this.класАвтомобіля=класАвтомобіля;
      this.вага=вага;
-    this.потужність=потужність;
-    this.виробник=виробник;
+
+
 }
+
+
+    @Override
     public String toString() {
-
-        return "Car -" +"ПІБ-"+ПІБ+",статть-"+статть +",вік"+вік+
-                ",номерТелефону-"+номерТелефону+",стажВодіння-"+стажВодіння+",потужність-"+
-                потужність+"виробник-"+виробник+ ",маркаАвтомобіля-"+маркаАвтомобіля+
-                ",класАвтомобіля-"+класАвтомобіля+" вага-"+вага;
-
-
+        return "Car{" +
+                "маркаАвтомобіля='" + маркаАвтомобіля + '\'' +
+                ", класАвтомобіля='" + класАвтомобіля + '\'' +
+                ", вага=" + вага +
+                ", потужність=" + потужність +
+                ", виробник='" + виробник + '\'' +
+                '}';
     }
-
 }
+
+
 
 
