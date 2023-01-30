@@ -3,42 +3,38 @@ package com.company.professions;
 import com.company.entities.Person;
 
 public class Driver extends Person {
-     public int стажВодіння;
-     public String типАвтомобіля;
+     private int drivingExperience;
+     private String typeOfCar;
 
-    public int getСтажВодіння() {
-        return стажВодіння;
+
+    public Driver(String Name, String sex, int age, int telefon,int drivingExperience,String typeOfCar) {
+        super(Name, sex, age, telefon);
+        this.drivingExperience=drivingExperience;
+        this.typeOfCar=typeOfCar;
     }
 
-    public void setСтажВодіння(int стажВодіння) {
-        this.стажВодіння = стажВодіння;
+    public int getDrivingExperience() {
+        return drivingExperience;
     }
 
-    public String getТипАвтомобіля() {
-        return типАвтомобіля;
+    public String getTypeOfCar() {
+        return typeOfCar;
     }
 
-    public void setТипАвтомобіля(String типАвтомобіля) {
-        this.типАвтомобіля = типАвтомобіля;
+    public void setDrivingExperience(int drivingExperience) {
+        this.drivingExperience = drivingExperience;
     }
 
-    public Driver(String ПІБ, String статть, int вік, int номерТелефону, int стажВодіння,String типАвтомобіля) {
-        super(ПІБ, статть, вік, номерТелефону);
-        this.стажВодіння=стажВодіння;
-        this.типАвтомобіля=типАвтомобіля;
+    public void setTypeOfCar(String typeOfCar) {
+        this.typeOfCar = typeOfCar;
     }
-
 
     @Override
     public String toString() {
         return "Driver{" +
-                "стажВодіння=" + стажВодіння +
-                ", типАвтомобіля='" + типАвтомобіля + '\'' +
-                ", ПІБ='" + ПІБ + '\'' +
-                ", статть='" + статть + '\'' +
-                ", вік=" + вік +
-                ", номерТелефону=" + номерТелефону +
-                '}';
+                "drivingExperience=" + drivingExperience +
+                ", typeOfCar='" + typeOfCar + '\'' +
+                "} " + super.toString();
     }
 }
 

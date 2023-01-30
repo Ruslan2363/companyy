@@ -2,32 +2,26 @@ package com.company.vehicles;
 import  com.company.vehicles.Car;
 import com.company.details.Engine;
 public class Lorry extends Car{
-    public String  вантажопідйомністюКузова;
+    private String  carryingCapacityBody;
 
-    public Lorry(int потужність,String виробник,String маркаАвтомобіля,String класАвтомобіля,int вага,String вантажопідйомністюКузова){
-         super(потужність,виробник,маркаАвтомобіля,класАвтомобіля,вага);
-         this.вантажопідйомністюКузова=вантажопідйомністюКузова;
-    }
-    public String getВантажопідйомністюКузова(){
-
-        return вантажопідйомністюКузова;
+    public Lorry(String carBrand, String carClass, int power, String producer, int weight, String Name, String sex, int age, int telefon, int drivingExperience, String typeOfCar,String  carryingCapacityBody) {
+        super(carBrand, carClass, power, producer, weight, Name, sex, age, telefon, drivingExperience, typeOfCar);
+        this.carryingCapacityBody=carryingCapacityBody;
     }
 
-    public void setВантажопідйомністюКузова(String вантажопідйомністюКузова) {
-        this.вантажопідйомністюКузова = вантажопідйомністюКузова;
+    public String getCarryingCapacityBody() {
+        return carryingCapacityBody;
     }
 
+    public void setCarryingCapacityBody(String carryingCapacityBody) {
+        this.carryingCapacityBody = carryingCapacityBody;
+    }
 
     @Override
     public String toString() {
         return "Lorry{" +
-                "вантажопідйомністюКузова='" + вантажопідйомністюКузова + '\'' +
-                ", маркаАвтомобіля='" + маркаАвтомобіля + '\'' +
-                ", класАвтомобіля='" + класАвтомобіля + '\'' +
-                ", вага=" + вага +
-                ", потужність=" + потужність +
-                ", виробник='" + виробник + '\'' +
-                '}';
+                "carryingCapacityBody='" + carryingCapacityBody + '\'' +
+                "} " + super.toString();
     }
 }
 

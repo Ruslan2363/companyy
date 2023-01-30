@@ -1,57 +1,59 @@
 package com.company.entities;
 
 public class Person {
-    public String ПІБ ;
-    public String статть;
-    public int вік;
-    public int номерТелефону;
+    private String Name ;
+    private String sex;
+    private int age;
+    private int telefon;
 
-    public String getПІБ() {
-        return ПІБ;
+
+    public Person(String Name , String sex, int age, int telefon){
+        this.Name=Name;
+        this.sex=sex;
+        this.age=age;
+        this.telefon=telefon;
     }
 
-    public void setПІБ(String ПІБ) {
-        this.ПІБ = ПІБ;
+
+    public String getName() {
+        return Name;
     }
 
-    public String getСтатть() {
-        return статть;
+    public int getAge() {
+        return age;
     }
 
-    public void setСтатть(String статть) {
-        this.статть = статть;
+    public String getSex() {
+        return sex;
     }
 
-    public int getВік() {
-        return вік;
+    public int getTelefon() {
+        return telefon;
     }
 
-    public void setВік(int вік) {
-        this.вік = вік;
+    public void setName(String name) {
+        Name = name;
     }
 
-    public int getНомерТелефону() {
-        return номерТелефону;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public void setНомерТелефону(int номерТелефону) {
-        this.номерТелефону = номерТелефону;
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 
-    public Person(String ПІБ, String статть, int вік, int номерТелефону){
-        this.вік=вік;
-        this.ПІБ=ПІБ;
-        this.статть=статть;
-        this.номерТелефону=номерТелефону;
+    public void setTelefon(int telefon) {
+        this.telefon = telefon;
     }
 
     @Override
     public String toString() {
         return "Person{" +
-                "ПІБ='" + ПІБ + '\'' +
-                ", статть='" + статть + '\'' +
-                ", вік=" + вік +
-                ", номерТелефону=" + номерТелефону +
+                "Name='" + Name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                ", telefon=" + telefon +
                 '}';
     }
 }

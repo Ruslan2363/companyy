@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eda531f6-85ef-4157-ad1a-a3fdb7167aa6" name="Changes" comment="  /">
-      <change afterPath="$PROJECT_DIR$/company" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/.idea/company.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company" beforeDir="false" afterPath="$PROJECT_DIR$/company" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/company/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/details/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/details/Engine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/entities/Person.java" afterDir="false" />
@@ -35,7 +29,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ruslan &lt;r.shalapay2001@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f3dd0f39-a119-4016-ac22-8120d116f044" />
+        <option name="url" value="git@github.com:Ruslan2363/company.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669722903065</updated>
     </task>
+    <task id="LOCAL-00001" summary="  /">
+      <created>1674943150279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674943150279</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
