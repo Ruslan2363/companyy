@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda531f6-85ef-4157-ad1a-a3fdb7167aa6" name="Changes" comment="  /">
+    <list default="true" id="eda531f6-85ef-4157-ad1a-a3fdb7167aa6" name="Changes" comment="  /changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company" beforeDir="false" afterPath="$PROJECT_DIR$/company" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/company/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/details/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/details/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/professions/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/professions/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/vehicles/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/vehicles/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/vehicles/Lorry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/vehicles/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/vehicles/SportCar.java" afterDir="false" />
@@ -55,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/company&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/company",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -103,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674943150279</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="  /changes">
+      <created>1675088176157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675088176157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,7 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="  /" />
-    <option name="LAST_COMMIT_MESSAGE" value="  /" />
+    <MESSAGE value="  /changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="  /changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -10,25 +10,36 @@ public class Car
  private int power;
  private String producer;
  private int weight;
- private int drivingExperience;
- private String typeOfCar;
- private String Name ;
-    private String sex;
-    private int age;
-    private int telefon;
-public Car(String carBrand,String carClass,int power,String producer,int weight,String Name , String sex, int age, int telefon,int drivingExperience,String typeOfCar){
+ private String driver;
+ private String engine;
+
+
+public Car(String carBrand,String carClass,int power,String producer,int weight,String driver,String engine){
     this.power=power;
     this.producer=producer;
-    this.Name=Name;
-    this.sex=sex;
-    this.age=age;
-    this.telefon=telefon;
-    this.drivingExperience=drivingExperience;
-    this.typeOfCar=typeOfCar;
+this.driver=driver;
+this.engine=engine;
+
     this.carBrand=carBrand;
     this.carClass=carClass;
     this.weight=weight;
 }
+public void setDriver(String driver) {
+    this.driver = driver;
+}
+
+    public void setEngine(String engine) {
+        this.engine = engine;
+    }
+
+    public String getDriver() {
+        return driver;
+    }
+
+    public String getEngine() {
+        return engine;
+    }
+
     public String getCarBrand() {
         return carBrand;
     }
@@ -68,51 +79,7 @@ public Car(String carBrand,String carClass,int power,String producer,int weight,
     public void setCarClass(String carClass) {
         this.carClass = carClass;
     }
-    public int getDrivingExperience() {
-        return drivingExperience;
-    }
 
-    public String getTypeOfCar() {
-        return typeOfCar;
-    }
-
-    public void setDrivingExperience(int drivingExperience) {
-        this.drivingExperience = drivingExperience;
-    }
-
-    public void setTypeOfCar(String typeOfCar) {
-        this.typeOfCar = typeOfCar;
-    }public String getName() {
-    return Name;
-}
-
-    public int getAge() {
-        return age;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public int getTelefon() {
-        return telefon;
-    }
-
-    public void setName(String name) {
-        Name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
-
-    public void setTelefon(int telefon) {
-        this.telefon = telefon;
-    }
 
     public void start(){
         System.out.println("Поїхали");
@@ -135,12 +102,8 @@ public Car(String carBrand,String carClass,int power,String producer,int weight,
                 ", power=" + power +
                 ", producer='" + producer + '\'' +
                 ", weight=" + weight +
-                ", drivingExperience=" + drivingExperience +
-                ", typeOfCar='" + typeOfCar + '\'' +
-                ", Name='" + Name + '\'' +
-                ", sex='" + sex + '\'' +
-                ", age=" + age +
-                ", telefon=" + telefon +
+                ", driver='" + driver + '\'' +
+                ", engine='" + engine + '\'' +
                 '}';
     }
 }

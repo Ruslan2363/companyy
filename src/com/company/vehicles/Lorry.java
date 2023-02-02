@@ -4,8 +4,8 @@ import com.company.details.Engine;
 public class Lorry extends Car{
     private String  carryingCapacityBody;
 
-    public Lorry(String carBrand, String carClass, int power, String producer, int weight, String Name, String sex, int age, int telefon, int drivingExperience, String typeOfCar,String  carryingCapacityBody) {
-        super(carBrand, carClass, power, producer, weight, Name, sex, age, telefon, drivingExperience, typeOfCar);
+    public Lorry(String carBrand, String carClass, int power, String producer, int weight,String  carryingCapacityBody,String driver,String engine) {
+        super(carBrand, carClass, power, producer, weight,driver,engine);
         this.carryingCapacityBody=carryingCapacityBody;
     }
 

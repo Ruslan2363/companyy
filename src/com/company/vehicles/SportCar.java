@@ -5,8 +5,8 @@ public class SportCar extends Car{
    private String limitSpeed;
 
 
-    public SportCar(String carBrand, String carClass, int power, String producer, int weight, String Name, String sex, int age, int telefon, int drivingExperience, String typeOfCar,String limitSpeed) {
-        super(carBrand, carClass, power, producer, weight, Name, sex, age, telefon, drivingExperience, typeOfCar);
+    public SportCar(String carBrand, String carClass, int power, String producer, int weight,String limitSpeed,String driver,String engine) {
+        super(carBrand, carClass, power, producer, weight,driver,engine);
         this.limitSpeed=limitSpeed;
     }
 
