@@ -7,16 +7,14 @@ public class Car
 {
  private String carBrand;
  private String carClass;
- private int power;
- private String producer;
+
  private int weight;
- private String driver;
- private String engine;
+ private Driver driver;
+ private Engine engine;
 
 
-public Car(String carBrand,String carClass,int power,String producer,int weight,String driver,String engine){
-    this.power=power;
-    this.producer=producer;
+public Car(String carBrand,String carClass,int weight,Driver driver,Engine engine){
+
 this.driver=driver;
 this.engine=engine;
 
@@ -24,33 +22,15 @@ this.engine=engine;
     this.carClass=carClass;
     this.weight=weight;
 }
-public void setDriver(String driver) {
-    this.driver = driver;
-}
 
-    public void setEngine(String engine) {
-        this.engine = engine;
-    }
-
-    public String getDriver() {
-        return driver;
-    }
-
-    public String getEngine() {
-        return engine;
-    }
 
     public String getCarBrand() {
         return carBrand;
     }
 
-    public String getProducer() {
-        return producer;
-    }
 
-    public int getPower() {
-        return power;
-    }
+
+
 
     public int getWeight() {
         return weight;
@@ -60,17 +40,13 @@ public void setDriver(String driver) {
         return carClass;
     }
 
-    public void setProducer(String producer) {
-        this.producer = producer;
-    }
+
 
     public void setWeight(int weight) {
         this.weight = weight;
     }
 
-    public void setPower(int power) {
-        this.power = power;
-    }
+
 
     public void setCarBrand(String carBrand) {
         this.carBrand = carBrand;
@@ -94,16 +70,15 @@ public void setDriver(String driver) {
         System.out.println("ПоворотНаліво");
     }
 
+
     @Override
     public String toString() {
         return "Car{" +
                 "carBrand='" + carBrand + '\'' +
                 ", carClass='" + carClass + '\'' +
-                ", power=" + power +
-                ", producer='" + producer + '\'' +
                 ", weight=" + weight +
-                ", driver='" + driver + '\'' +
-                ", engine='" + engine + '\'' +
+                ", driver=" + driver +
+                ", engine=" + engine +
                 '}';
     }
 }

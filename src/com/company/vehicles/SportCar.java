@@ -1,12 +1,12 @@
 package com.company.vehicles;
-import  com.company.vehicles.Car;
+import com.company.professions.Driver;
 import com.company.details.Engine;
 public class SportCar extends Car{
    private String limitSpeed;
 
 
-    public SportCar(String carBrand, String carClass, int power, String producer, int weight,String limitSpeed,String driver,String engine) {
-        super(carBrand, carClass, power, producer, weight,driver,engine);
+    public SportCar(String carBrand, String carClass, int weight,String limitSpeed, Driver driver, Engine engine) {
+        super(carBrand, carClass, weight,driver,engine);
         this.limitSpeed=limitSpeed;
     }
 
